@@ -1,0 +1,12 @@
+# Ignore environment file that contains sensitive data
+.env
+
+# Ignore SQL Server data directory
+sql_data/
+
+# Ignore any other local data files that should not be tracked
+*.log
+*.bak
+
+# Ignore Docker Compose override files (if you have any)
+docker-compose.override.yml
